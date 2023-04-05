@@ -1,4 +1,5 @@
-<img src="https://img.shields.io/badge/v3-SwiftUI-blue" alt="swiftui"/> # eyeSeeYou
+<img src="https://img.shields.io/badge/v3-SwiftUI-blue" alt="swiftui"/> 
+#eyeSeeYou
 Simple project for cool Text Field Animation using Lottie and Swift UI
 
 
