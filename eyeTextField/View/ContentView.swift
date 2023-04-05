@@ -25,7 +25,7 @@ struct ContentView: View {
                             .fill(.yellow)
                             .frame(width: 220, height: 400)
                             .rotationEffect(Angle(degrees: 90))
-                            .position(x: 140, y: 235)
+                            .position(x: 135, y: 235)
                             .opacity(isEyeWatching ? 1 : 0)
                 VStack {
                     Text("Login Screen")
