@@ -3,22 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B5111C729DCB1C7002D32E0 /* eyeTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5111C629DCB1C7002D32E0 /* eyeTextFieldApp.swift */; };
+		8B37ACF829DD8E2500CCE123 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37ACF729DD8E2500CCE123 /* TriangleView.swift */; };
+		8B37ACFA29DD8F3800CCE123 /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37ACF929DD8F3800CCE123 /* EyeView.swift */; };
+		8B37ACFE29DD8FDB00CCE123 /* AnimationFinishedKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37ACFD29DD8FDB00CCE123 /* AnimationFinishedKey.swift */; };
+		8B37AD0029DDF43D00CCE123 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37ACFF29DDF43D00CCE123 /* Constants.swift */; };
+		8B5111C729DCB1C7002D32E0 /* EyeTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5111C629DCB1C7002D32E0 /* EyeTextFieldApp.swift */; };
 		8B5111C929DCB1C7002D32E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5111C829DCB1C7002D32E0 /* ContentView.swift */; };
 		8B5111CB29DCB1C9002D32E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5111CA29DCB1C9002D32E0 /* Assets.xcassets */; };
 		8B5111CE29DCB1C9002D32E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5111CD29DCB1C9002D32E0 /* Preview Assets.xcassets */; };
+		8B5111D529DCB226002D32E0 /* LottieGenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5111D429DCB226002D32E0 /* LottieGenericView.swift */; };
+		8B5111D829DCB2B2002D32E0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8B5111D729DCB2B2002D32E0 /* Lottie */; };
+		8B5111DB29DCB55C002D32E0 /* BrownEyeSeeYou.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B5111DA29DCB55C002D32E0 /* BrownEyeSeeYou.json */; };
+		8B5111E029DD33BC002D32E0 /* BlueEyeSeeYou.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B5111DF29DD33BC002D32E0 /* BlueEyeSeeYou.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B37ACF729DD8E2500CCE123 /* TriangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		8B37ACF929DD8F3800CCE123 /* EyeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
+		8B37ACFD29DD8FDB00CCE123 /* AnimationFinishedKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFinishedKey.swift; sourceTree = "<group>"; };
+		8B37ACFF29DDF43D00CCE123 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8B5111C329DCB1C7002D32E0 /* eyeTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eyeTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B5111C629DCB1C7002D32E0 /* eyeTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eyeTextFieldApp.swift; sourceTree = "<group>"; };
+		8B5111C629DCB1C7002D32E0 /* EyeTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTextFieldApp.swift; sourceTree = "<group>"; };
 		8B5111C829DCB1C7002D32E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B5111CA29DCB1C9002D32E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B5111CD29DCB1C9002D32E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B5111D429DCB226002D32E0 /* LottieGenericView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieGenericView.swift; sourceTree = "<group>"; };
+		8B5111DA29DCB55C002D32E0 /* BrownEyeSeeYou.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BrownEyeSeeYou.json; sourceTree = "<group>"; };
+		8B5111DC29DCB772002D32E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B5111DF29DD33BC002D32E0 /* BlueEyeSeeYou.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlueEyeSeeYou.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +42,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5111D829DCB2B2002D32E0 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B37ACF429DD8CAE00CCE123 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B5111C829DCB1C7002D32E0 /* ContentView.swift */,
+				8B37ACF929DD8F3800CCE123 /* EyeView.swift */,
+				8B37ACF729DD8E2500CCE123 /* TriangleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B37ACFC29DD8F9400CCE123 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8B37ACFD29DD8FDB00CCE123 /* AnimationFinishedKey.swift */,
+				8B37ACFF29DDF43D00CCE123 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		8B5111BA29DCB1C7002D32E0 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +87,14 @@
 		8B5111C529DCB1C7002D32E0 /* eyeTextField */ = {
 			isa = PBXGroup;
 			children = (
-				8B5111C629DCB1C7002D32E0 /* eyeTextFieldApp.swift */,
-				8B5111C829DCB1C7002D32E0 /* ContentView.swift */,
+				8B37ACFC29DD8F9400CCE123 /* Helper */,
+				8B5111D929DCB546002D32E0 /* LottieFiles */,
+				8B37ACF429DD8CAE00CCE123 /* View */,
+				8B5111DC29DCB772002D32E0 /* Info.plist */,
+				8B5111C629DCB1C7002D32E0 /* EyeTextFieldApp.swift */,
 				8B5111CA29DCB1C9002D32E0 /* Assets.xcassets */,
 				8B5111CC29DCB1C9002D32E0 /* Preview Content */,
+				8B5111D429DCB226002D32E0 /* LottieGenericView.swift */,
 			);
 			path = eyeTextField;
 			sourceTree = "<group>";
@@ -65,6 +105,15 @@
 				8B5111CD29DCB1C9002D32E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B5111D929DCB546002D32E0 /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8B5111DF29DD33BC002D32E0 /* BlueEyeSeeYou.json */,
+				8B5111DA29DCB55C002D32E0 /* BrownEyeSeeYou.json */,
+			);
+			path = LottieFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +132,9 @@
 			dependencies = (
 			);
 			name = eyeTextField;
+			packageProductDependencies = (
+				8B5111D729DCB2B2002D32E0 /* Lottie */,
+			);
 			productName = eyeTextField;
 			productReference = 8B5111C329DCB1C7002D32E0 /* eyeTextField.app */;
 			productType = "com.apple.product-type.application";
@@ -96,14 +148,15 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = Mgsulaiman;
 				TargetAttributes = {
 					8B5111C229DCB1C7002D32E0 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 8B5111BE29DCB1C7002D32E0 /* Build configuration list for PBXProject "eyeTextField" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 8B5111BE29DCB1C7002D32E0 /* Build configuration list for PBXProject "EyeSeeYou" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 8B5111BA29DCB1C7002D32E0;
+			packageReferences = (
+				8B5111D629DCB2B2002D32E0 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 8B5111C429DCB1C7002D32E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5111CE29DCB1C9002D32E0 /* Preview Assets.xcassets in Resources */,
+				8B5111DB29DCB55C002D32E0 /* BrownEyeSeeYou.json in Resources */,
 				8B5111CB29DCB1C9002D32E0 /* Assets.xcassets in Resources */,
+				8B5111E029DD33BC002D32E0 /* BlueEyeSeeYou.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B37ACFE29DD8FDB00CCE123 /* AnimationFinishedKey.swift in Sources */,
 				8B5111C929DCB1C7002D32E0 /* ContentView.swift in Sources */,
-				8B5111C729DCB1C7002D32E0 /* eyeTextFieldApp.swift in Sources */,
+				8B37AD0029DDF43D00CCE123 /* Constants.swift in Sources */,
+				8B5111C729DCB1C7002D32E0 /* EyeTextFieldApp.swift in Sources */,
+				8B37ACFA29DD8F3800CCE123 /* EyeView.swift in Sources */,
+				8B37ACF829DD8E2500CCE123 /* TriangleView.swift in Sources */,
+				8B5111D529DCB226002D32E0 /* LottieGenericView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +333,12 @@
 				DEVELOPMENT_TEAM = 93TK333T38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = eyeTextField/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EyeSeeYou;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +346,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mgsulaiman.eyeTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +366,12 @@
 				DEVELOPMENT_TEAM = 93TK333T38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = eyeTextField/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EyeSeeYou;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,16 +379,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mgsulaiman.eyeTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B5111BE29DCB1C7002D32E0 /* Build configuration list for PBXProject "eyeTextField" */ = {
+		8B5111BE29DCB1C7002D32E0 /* Build configuration list for PBXProject "EyeSeeYou" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B5111CF29DCB1C9002D32E0 /* Debug */,
@@ -339,6 +410,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B5111D629DCB2B2002D32E0 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B5111D729DCB2B2002D32E0 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B5111D629DCB2B2002D32E0 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B5111BB29DCB1C7002D32E0 /* Project object */;
 }
