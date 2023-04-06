@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/v3-SwiftUI-blue" alt="swiftui"/> 
-#eyeSeeYou
-<h1 center="Eye See You</h1>
+
+<h1 align="center">"Eye See You</h1>
 
 <h3 align="center">Simple project for cool Text Field Animation using Lottie and Swift UI</h3>
 
