@@ -7,6 +7,9 @@
 
 https://user-images.githubusercontent.com/75271193/230237815-4a1363cd-b743-4337-a8a4-6a371cb73944.mp4
 
+______________________
+Lottie Files Credits: João Veríssimo   https://lottiefiles.com/23424-eye-see-you
+______________________
 
 <h1 align="center">Hi 👋, I'm Mohammad Sulaiman</h1>
 <h3 align="center">A passionate iOS engineer from Jordan</h3>
